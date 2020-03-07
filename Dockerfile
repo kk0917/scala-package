@@ -1,4 +1,4 @@
-ARG PGTAG=1.0.1
+ARG PGTAG=1.1.1
 
 FROM centos:7
 LABEL maintainer="K.K"

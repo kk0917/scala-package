@@ -1,6 +1,7 @@
-FROM centos:7
+ARG PGTAG=1.0.1
 
-LABEL maintainer="kkkk"
+FROM centos:7
+LABEL maintainer="K.K"
 
 ENV JAVA_HOME=/usr/lib/jvm/java-11-openjdk \
     SCALA_HOME=/usr/local/scala \

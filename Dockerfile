@@ -1,6 +1,5 @@
-ARG PGTAG=1.1.1
-
 FROM centos:7
+
 LABEL maintainer="K.K"
 
 ENV JAVA_HOME=/usr/lib/jvm/java-11-openjdk \
@@ -53,6 +52,6 @@ RUN : " *** nginx install ***" \
 
 WORKDIR /app
 
-EXPOSE 8080/tcp
+EXPOSE 80
 
 CMD ["/sbin/init"]

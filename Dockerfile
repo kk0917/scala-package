@@ -1,6 +1,6 @@
 FROM centos:7
 
-LABEL maintainer="K.K"
+LABEL maintainer="KKKK"
 
 ENV JAVA_HOME=/usr/lib/jvm/java-11-openjdk \
     SCALA_HOME=/usr/local/scala \

@@ -1,10 +1,10 @@
-## scala-package
+# scala-package
 Scala, sbt, JDK, nginx, CentOS-7 - All in One Scala development environment
 
-## run
+# run
 docker run -dit --rm --privileged --name container-name -p 8080:80 kkdk/scala-package:tag
  
-## detail
+# detail
 
 - Scala
     - 2.13.1 

@@ -48,9 +48,9 @@ RUN : " *** nginx install ***" \
   && yum clean all \
   && sbt -version \
   && ln -sf /usr/share/zoneinfo/Asia/Tokyo /etc/localtime \
-  && mkdir -p -m 755 /app
+  && mkdir -p -m 755 app
 
-WORKDIR /app
+WORKDIR app
 
 EXPOSE 80
 

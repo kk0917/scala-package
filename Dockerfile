@@ -41,7 +41,7 @@ RUN : " *** nginx install ***" \
   && echo "PATH=$PATH:${SCALA_HOME}/bin" >> /etc/profile.d/scala.sh \
   && source /etc/profile.d/scala.sh \
   && cd \
-#  && scala -version \
+  && scala -version \
   && : "*** sbt install ***" \
   && curl https://bintray.com/sbt/rpm/rpm | tee /etc/yum.repos.d/bintray-sbt-rpm.repo \
   && yum -y install sbt \
